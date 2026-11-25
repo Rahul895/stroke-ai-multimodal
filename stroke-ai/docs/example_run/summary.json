@@ -1,0 +1,41 @@
+{
+  "config": {
+    "data": "synthetic",
+    "data_csv": null,
+    "image_root": null,
+    "external_csv": null,
+    "n_samples": 800,
+    "img_size": 64,
+    "backbone": "small_cnn",
+    "epochs": 25,
+    "batch_size": 32,
+    "lr": 0.001,
+    "patience": 6,
+    "seed": 42,
+    "out_dir": "/tmp/run_final",
+    "n_boot": 300,
+    "mc_samples": 20,
+    "use_mlflow": false,
+    "device": "cpu"
+  },
+  "proposed": "late_fusion",
+  "best_clinical": [
+    "xgb",
+    "class_weight"
+  ],
+  "final_test": {
+    "roc_auc": 0.8719618055555555,
+    "pr_auc": 0.670882285724089,
+    "sensitivity": 0.6666666666666666,
+    "specificity": 0.875,
+    "brier": 0.11456196896229895,
+    "ece": 0.0924062183253738,
+    "threshold": 0.2041128271706539,
+    "n": 120,
+    "n_pos": 24
+  },
+  "final_auc_ci": [
+    0.7750651041666666,
+    0.94208984375
+  ]
+}

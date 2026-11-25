@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stroke-ai"
+version = "0.1.0"
+description = "Explainable multimodal (clinical + MRI) stroke-risk research prototype"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[project.scripts]
+stroke-ai-train = "stroke_ai.pipeline:main"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "src"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning", "ignore::UserWarning"]

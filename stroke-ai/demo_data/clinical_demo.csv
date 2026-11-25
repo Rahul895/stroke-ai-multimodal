@@ -1,0 +1,13 @@
+patient_id,gender,age,hypertension,heart_disease,avg_glucose_level,bmi,smoking_status,stroke,image_path
+P00000,Male,39.0,0,0,135.7,25.1,never smoked,0,P00000.png
+P00001,Female,49.0,0,0,96.1,24.5,smokes,0,P00001.png
+P00002,Female,76.0,1,0,103.2,22.8,never smoked,1,P00002.png
+P00003,Male,58.0,0,0,84.0,19.1,never smoked,0,P00003.png
+P00004,Male,70.0,1,0,118.5,29.3,never smoked,1,P00004.png
+P00005,Female,64.0,0,0,90.2,33.9,smokes,0,P00005.png
+P00006,Male,45.0,0,0,157.2,24.7,Unknown,0,P00006.png
+P00007,Female,64.0,1,0,102.0,24.6,never smoked,1,P00007.png
+P00008,Male,50.0,0,0,100.8,26.1,Unknown,0,P00008.png
+P00009,Female,50.0,0,0,100.7,25.2,never smoked,0,P00009.png
+P00010,Female,57.0,0,0,100.7,19.4,smokes,0,P00010.png
+P00011,Male,31.0,0,0,101.4,36.2,smokes,0,P00011.png

@@ -1,0 +1,2 @@
+# Install after the base requirements for real NIfTI MRI data.
+nibabel>=5.2
